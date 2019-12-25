@@ -205,5 +205,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void tbCountLine_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

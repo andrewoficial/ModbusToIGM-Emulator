@@ -269,7 +269,7 @@
             // tbIdentificator
             // 
             this.tbIdentificator.Location = new System.Drawing.Point(161, 37);
-            this.tbIdentificator.MaxLength = 5;
+            this.tbIdentificator.MaxLength = 50;
             this.tbIdentificator.Name = "tbIdentificator";
             this.tbIdentificator.Size = new System.Drawing.Size(197, 20);
             this.tbIdentificator.TabIndex = 17;
@@ -304,6 +304,7 @@
             this.tbCountLine.Size = new System.Drawing.Size(70, 20);
             this.tbCountLine.TabIndex = 19;
             this.tbCountLine.Text = "500";
+            this.tbCountLine.TextChanged += new System.EventHandler(this.tbCountLine_TextChanged);
             this.tbCountLine.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TbCountLine_KeyPress);
             // 
             // Http_Post
